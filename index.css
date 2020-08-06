@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f0e5e5;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    padding: 3%;
+}
+.menu-area{
+    position: relative; 
+    padding-left: 3%;
+    width: 100%;
+}
+.menu{
+    position: relative;
+    padding: 2%;
+    width: 32%;    
+    background-color: rgb(81, 124, 216);
+    border: 1.5px solid white;
+}
+.menu-items-1 h2{
+    background-color: rgb(248, 97, 223);
+}
+.menu-items-2 h2{
+    background-color: rgb(69, 204, 91);
+}
+.menu-items-3 h2{
+    background-color: rgb(176, 112, 235);
+}
+.menu h2{
+    border: 1.5px solid white;
+    position: absolute;
+    color: black !important;
+    top: -21;
+    right: -1;
+    padding: 5px 8px;    
+}
+.menu p{
+    padding: 10px;
+    text-align: justify;
+}
+@media (min-width:992px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .menu-items-1{
+        width: 30%;
+    }
+    .menu-items-2{
+        width: 30%;
+    }
+    .menu-items-3{
+        width: 30%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin: 15px;
+    }
+    .menu-items-1{
+        width: 45%;
+    }
+    .menu-items-2{
+        width: 45%;
+    }
+    .menu-items-3{
+        width: 94%;
+    }
+}
+
+@media (max-width:767px){
+    .menu-items-1, .menu-items-2, .menu-items-3{
+        float: left;
+        margin: 5px;
+    }
+    .menu p{
+        padding-top: 30px;
+    }
+    .menu-items-1{
+        width: 95%;
+    }
+    .menu-items-2{
+        width: 95%;
+    }
+    .menu-items-3{
+        width: 95%;
+    }
+}
